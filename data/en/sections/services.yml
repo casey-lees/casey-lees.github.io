@@ -1,0 +1,31 @@
+# section information
+section:
+  name: Services
+  id: services
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  template: sections/services.html
+
+services:
+- service: Visual Researcher
+  skills:
+  - With over 10 years of experience working on documentaries, film, websites, and television broadcast media, let me expertly and efficiently source the additional images and footage your project needs. Whether you need material that's visually impactful to wow clients, cheap or free to meet shoestring budgets, historically or contextually accurate for factual authenticity, or fast and easy to license to make those tight deadlines - I've worked with producers, directors, editors, and researchers to help identify and satisfy their unique research needs.
+  - In addition to my connections I've built up over the years, <a href="https://visualresearch.ca/" target="_blank">The Visual Researcher Society of Canada</a> has negotiated preferential rates with many footage and images sources available exclusively through their member researchers like myself.
+
+- service: Archive Researcher / Producer
+  skills:
+  - Leverage the public domain! This is my favorite way to help projects bring down stock and licensing costs. Not just for historical projects, let me help you navigate the growing world of free, creative commons, and public domain contemporary stock video and photography websites. You know how expensive the monolithic stock sites like Getty, Shutterstock, and iStock are getting. Just replacing a couple of stock items from those sites with public domain material will instantly save you hundreds or thousands of dollars – savings that can sometimes more than cover the cost of my services with only a few hours of research.
+  - As a dual American/Canadian citizen, it's slightly easier for me to make federal, state/provincial, local, and FOI record requests for public documents from either country.
+  - I create episode archive timecode logs, budget reports, and replacement suggestions.
+  - Got a database full of B-roll, archives, and stock that needs organizing? I can help do all that nitty-gritty boring tagging stuff so your team can find what they need more efficiently!
+
+- service: Clearances
+  skills:
+  - Identify, locate, and contact copyright owners for the photos or videos you want to use in your project.
+  - Negotiate licensing fees and bulk rate discounts if possible.
+  - Organize licensing paperwork and documentations for legal review and records.
+  - Fair Use and Fair Dealings research and diligence report writing for legal review.
+  - Flag additional copyright issues or other sensitive legal rights that may need to be secured for your project (appearance release, location release, music/performance rights, trademarks, etc.).
+  - The Indigenous Screen Office's On-Screen Protocols and Pathways is now considered mandatory if you are depicting First Nations, Métis, and Inuit peoples and stories. Having successfully helped implementing Indigenous protocols on two projects, I am aware protocols need to be started early and rigorously in a project. Whether it be consulting with local nations and communities to access and film on traditional lands, clearing new restrictions on using historical material depicting Indigenous peoples held by knowledge institutions, or getting permission to share certain stories, I aim to do so in a respectful sensitive manner on their terms.
+  - I take pride in the accuracy and professionalism of my research and documentation very seriously. As a forensic genealogy researcher, my reports and affidavits required the thorough research diligence and accuracy necessary to be accepted as evidence in court.

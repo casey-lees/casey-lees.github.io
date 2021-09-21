@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Education
+  id: education
+  enable: true
+  weight: 4
+  showOnNavbar: false
+  template: sections/education.html
+
+degrees:
+- name: Master of Library and Information Studies - Archives
+  icon: fa-book
+  timeframe: 2013
+  institution:
+    name: McGill University
+    url: https://www.mcgill.ca/
+
+- name: B.A. - Humanistic Studies and History (Double Major)
+  icon: fa-landmark
+  timeframe: 2011
+  institution:
+    name: McGill University
+    url: https://www.mcgill.ca/
+
+- name: D.E.C. - Liberal Arts Honours Program
+  icon: fa-pencil-alt
+  timeframe: 2007
+  institution:
+    name: Vanier College
+    url: https://www.vaniercollege.qc.ca/

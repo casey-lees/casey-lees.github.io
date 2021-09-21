@@ -1,0 +1,30 @@
+.background {
+    filter: blur(1px) !important;
+}
+
+/* about section overrides */
+.about-section figure {
+    border: none !important;
+}
+
+// list-group
+.list-group-item {
+    background-color: inherit !important;
+    color: inherit !important;
+    border-bottom: 0.0625rem solid rgba(8,145,178,0.4);
+}
+
+.figure-img.theme-light {
+    display: inherit;
+}
+.figure-img.theme-dark {
+    display: none;
+}
+html[data-theme="dark"] {
+    .figure-img.theme-light {
+        display: none;
+    }
+    .figure-img.theme-dark {
+        display: inherit;
+    }
+}

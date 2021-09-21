@@ -1,0 +1,33 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+{{ $sectionID = .section.id }}
+{{ end }}
+
+<div class="container-fluid anchor pb-5 skills-section" id="{{ $sectionID }}">
+    {{ if not (.section.hideTitle) }}
+        <h1 class="text-center">
+            <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+    {{ else }}
+        <h1 class="text-center" style="display: none">
+            <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+    {{ end }}
+
+    <div class="container ms-auto">
+        {{ range .services }}
+        <div class="p-2">
+            <div class="card">
+                <div class="card-head d-flex">
+                    <h5 class="card-title">{{ .service }}</h5>
+                </div>
+                <div class="card-body text-justify pt-1 pb-1">
+                    <ul class="list-group list-group-flush">
+                        {{ range .skills }}
+                            <li class="list-group-item">{{ . | markdownify }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
