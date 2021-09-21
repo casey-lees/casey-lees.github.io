@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  server:
+    image: klakegg/hugo:0.83.1
+    command: server --watch
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"

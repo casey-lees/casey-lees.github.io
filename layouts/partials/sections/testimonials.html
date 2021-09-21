@@ -1,0 +1,30 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+{{ $sectionID = .section.id }}
+{{ end }}
+
+<div class="container-fluid anchor pb-5 accomplishments-section" id="{{ $sectionID }}">
+    {{ if not (.section.hideTitle) }}
+        <h1 class="text-center">{{ .section.name }}</h1>
+    {{ end }}
+
+    <div class="container">
+        {{ range .testimonials }}
+            <div class="accomplishment-card-holder p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">{{ .testimonial | markdownify }}</p>
+                            <footer class="blockquote-footer">
+                                {{ .name }}
+                                {{ if .organization }}
+                                    - {{ .organization }}
+                                {{ end }}
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</div>

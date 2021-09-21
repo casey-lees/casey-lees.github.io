@@ -1,0 +1,73 @@
+/* This is empty CSS file intended to be overwritten by user's custom CSS file */
+
+/* ============= Device specific fixes ======= */
+
+/* Large screens such as TV */
+@media only screen and (min-width: 1824px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+/* IPad Pro */
+@media (max-width: 1024px) {
+}
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 576px) {
+}
+
+/* iPhoneX, iPhone 6,7,8 */
+@media only screen and (max-width: 375px) {
+}
+
+/* Galaxy S5, Moto G4 */
+@media only screen and (max-width: 360px) {
+}
+
+/* iPhone 5 or before */
+@media only screen and (max-width: 320px) {
+}
+
+/* navbar */
+.initial-navbar li a {
+    color: #1c2d41;
+    border-bottom: 2px solid#F9FAFC;
+}
+
+.initial-navbar .navbar-nav .active,
+.initial-navbar li a:hover {
+    color: #2098d1;
+    border-bottom: 2px solid #2098d1;
+}
+
+
+/* home section overrides */
+.home {
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.background {
+    filter: blur(1px);
+}
+
+/* about section overrides */
+.about-section figure {
+    border: none;
+}
