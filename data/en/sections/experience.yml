@@ -1,0 +1,39 @@
+# section information
+section:
+  name: Experience
+  id: experience
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/experiences.html
+
+# Your experiences
+experiences:
+- company:
+    name: Freelance
+    location: Remote Canada
+  positions:
+  - designation: Visual Researcher & Archive Producer
+    start: April 2018
+    responsibilities:
+    - Conducted visual archive research and clearances for documentary films, television, and websites.
+    - Identify, locate, and contact copyright owners for the photos or footage. Negotiate licensing fees and bulk rate discounts.
+    - Prepared archive timecode logs, budgets, and suggestions.
+    - Organized licensing paperwork and documentation for legal review and records.
+    - Fair Use and Fair Dealings research, advice, and diligence report writing to submit for legal review.
+    - Implemented the Indigenous Screen Office's Protocols and Pathways clearances on 2 projects.
+
+- company:
+    name: CMJ Productions II Inc.
+    url: https://cmjprod.ca/index.php
+    location: Montreal, QC
+  positions:
+  - designation: Visual / Archive Researcher
+    start: January 2014
+    end: April 2018
+    responsibilities:
+    - Conducted online research skills to find requested visual material for TV documentary series, identify copyright owners, contact them, and negotiate licensing.
+    - Maintained archive database and tagged descriptive metadata for production's b-roll, archives, research materials, and stock video.
+    - Created documentation of episode timecode logs, archive budgets, notes flagging content with legal or sensitive concerns, and final documentation binders.
+    - Was consistently contracted over 4 years by CMJ Productions II Inc. for multiple series.
+    - Credited on 7 TV shows (over 100 episodes in total).

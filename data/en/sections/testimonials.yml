@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Testimonials
+  id: testimonials
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  template: sections/testimonials.html
+
+testimonials:
+- name: Leena Minifie
+  organization: |
+    producer 'British Columbia: An Untold History' and 'The Good Canadian'
+  testimonial: |
+    I would recommend Casey for archival research for any film, documentary or series project you are working on. Casey worked on one of the hardest series, showcasing two hundred years of history on the west coast with a vast majority of racialized archives and hard-to-fill stories. Her vast breadth of knowledge and history, and her meticulous caretaking of each relationship and vendor can save you so much money in the long run.
+- name: Shannon L'Hérault
+  organization: |
+    Archives Supervisor at CMJ Productions II Inc.
+  testimonial: |
+    Casey is great to work with. She is efficient, professional and dedicated. I would not only recommend her but I would hire her again in an instant.
+- name: |
+    British Columbia: An Untold History
+  testimonial: |
+    Canadian Screen Awards – 2022 Nominee – Barbara Sears Award for Best Visual Research

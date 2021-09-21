@@ -1,0 +1,75 @@
+# section information
+section:
+  name: Portfolio
+  id: portfolio
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/accomplishments.html
+
+accomplishments:
+- name: Filmography - Visual / Archive Researcher
+  organization:
+    name: IMDb Page - https://www.imdb.com/name/nm8531919/
+    url: http://www.imdb.com/name/nm8531919/
+  courseOverview: |
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.aptn.ca/media-centre/shows/the-good-canadian/">The Good Canadian</a> (2025)</strong>
+        <br/>feature documentary
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://screensiren.ca/project/mafia-most-wanted">Mafia: Most Wanted</a> (2025)</strong>
+        <br/>3 episodes, TV documentary series
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://blacklifeseries.com">Black Life: Untold Stories</a> (2023)</strong>
+        <br/>3 episodes, TV documentary series
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.knowledge.ca/program/british-columbia-untold-history">British Columbia: An Untold History</a> (2021)</strong>
+        <br/>2 episodes, TV documentary series and website
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.thesearch.online/trailer">The Search</a> - Manufacturing Belief (2019)</strong>
+        <br/>documentary film
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.cmjprod.ca/productions/page.php?noprod=49">Rev'd Up</a> (2018)</strong>
+        <br/>13 episodes, TV clip show
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://abovethedrowningsea.com/">Above the Drowning Sea</a> (2017)</strong>
+        <br/>documentary film (uncredited)
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.cmjprod.ca/productions/page.php?noprod=45&pt=the-know-it-all-guide-to">The Know It All Guide To…</a> (2017)</strong>
+        <br/>12 episodes, TV documentary series
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.cmjprod.ca/productions/page.php?noprod=42&pt=how-the-world-ends">How The World Ends</a> (2016)</strong>
+        <br/>6 episodes, TV documentary series
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.cmjprod.ca/productions/page.php?noprod=41">Million Dollar Genius</a> (2016)</strong>
+        <br/>1 episode, TV documentary series
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.cmjprod.ca/productions/page.php?noprod=19">A Stranger In My Home</a> - Season 3 (2016)</strong>
+        <br/>26 episodes, TV docudrama series
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.cmjprod.ca/productions/page.php?noprod=14">Wheels That Fail</a> – Seasons 1 and 2 (2014 - 2018)</strong>
+        <br/>16 episodes, TV clip show
+      </li>
+      <li class="list-group-item">
+        <strong><a target="_blank" href="https://www.cmjprod.ca/productions/page.php?noprod=10">Celebrity Legacies</a> (2014-2015)</strong>
+        <br/>26 episodes, TV documentary series
+      </li>
+    </ul>
+
+- name: Bibliography
+  courseOverview: |
+    Sharon Rankin and Casey Lees, (2015), "The McGill Library Chapbook Project: A case study in TEI encoding", OCLC Systems & Services: International digital library perspectives, Vol. 31 Iss 3 pp.
+
+    Permanent link: [http://dx.doi.org/10.1108/OCLC-07-2014-0030](http://dx.doi.org/10.1108/OCLC-07-2014-0030)

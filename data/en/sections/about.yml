@@ -1,0 +1,36 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Visual Researcher / Archive Producer
+
+# your resume. this file path should be relative to you "static" directory
+resume: files/CV - Casey Lees.pdf
+
+# a summary about you
+summary: |
+  I’m a Visual Researcher & Archive Producer for TV documentaries and film based in Canada.
+
+  With over 10 years of experience working as a Visual Researcher on award winning documentaries, films, educational websites, and television broadcast media, let me expertly and efficiently source the additional images and footage your project needs. Whether you need material that’s visually impactful to wow audiences, historically or contextually accurate for factual authenticity, cheap to meet restricted budgets, or fast and easily licensable to make those tight deadlines - I’ve worked with producers, directors, editors, and researchers to help identify and satisfy their unique archive research needs.
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: fas fa-envelope
+  url: casey.lees@outlook.com
+
+badges:
+- type: award
+  summary: |
+    <h6>Nominated for the 2022 Barbara Sears Award for Best Visual Research</h6>
+    <h7>British Columbia: An Untold History</h7>
+  url: https://www.academy.ca/2022/lanna-lucas/
+  image: images/sections/about/2022CSA_Nominee.png
+  imageDark: images/sections/about/2022CSA_NomineeWhite.png

@@ -1,0 +1,9 @@
+services:
+  server:
+    container_name: hugo_server
+    image: hugomods/hugo:0.148.2
+    command: server --watch
+    volumes:
+      - .:/src
+    ports:
+      - 1313:1313
